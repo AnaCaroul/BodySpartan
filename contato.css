@@ -1,0 +1,405 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#011c27;
+}
+
+/* TOP */
+
+.top { 
+    background-color: #cfcfcf;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+.top ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+.text {
+    font-style: normal;
+    font-size: 17px;
+    color: #494949;
+    font-family: 'Lato', 'sans-serif';
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+#titulo1 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Work Sans', 'sans serif';
+    color: black;
+    text-shadow: 0px 4px 4px 
+    rgba(0, 0, 0, 0.25);
+    font-weight: 800;
+    margin-right: 65%;
+}
+
+/* hedear */
+.header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 2px;
+    align-items: center;
+    width: 100%;
+    margin-top: 48px;
+    position: fixed;
+ background-color: #ffff;
+ z-index: 2;
+ left: 0;
+}
+
+#logo {
+    margin-right: 190px;
+    margin-left: 10px;
+}
+
+.txt a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', 'sans serif';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#home {
+    text-decoration:underline;
+    text-underline-offset: 0.4rem;   ;
+}
+
+.txt:hover {
+    text-decoration:underline;
+    text-underline-offset: 0.4rem; 
+}
+
+.buscar  {
+    background-color: #dedede;
+    color: black;
+    font-family:  'Work Sans', 'sans serif'; 
+    font-size: 14px;
+    border-radius: 24px;
+    width: 120px;
+    line-height: 30px;
+    transition: 1s;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+#lupa {
+    margin-left: 8px;
+    margin-right: 3px;
+}
+
+
+.buscar:hover {
+    opacity: 0.5;
+    background: rgba(28, 27, 27, 0.7)
+}
+
+#sacola {
+    margin-left: 10px;
+}
+
+/* promocao */
+.promocao {
+    background-color: #cfcfcf;
+    position: absolute;
+    margin-top: 145px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family:  'Work Sans', 'sans serif';
+    display: grid;
+    grid-template-columns:  25px 30px 130px 500px 25px;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+}
+
+.promocao div {
+display: grid;
+
+}
+#setas {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#textForte {
+    font-weight: 600;
+    margin-left: 5px;
+
+}
+
+
+/* imagem 2 */
+
+#banner {
+    margin-top: 200px;
+}
+
+.banner {
+    text-align: center;
+}
+
+/* infomações */
+.infos {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 150px;
+    grid-template-rows: auto auto auto;
+    margin-top: 50px;
+}
+
+.infos p{
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+}
+
+.infos img {
+    margin-left: 70px;
+}
+
+#mensagem {
+    margin-left: 90px;
+}
+
+#btni {
+    margin-left: 10px;
+}
+
+.btns {
+    color: white;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    text-align: center;
+    background-color: #000000;
+    line-height: 30px;
+    width: 200px;
+    border-radius: 40px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+/* mapa */ 
+
+.localizacao span {
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+}
+
+.localizacao {
+    margin-left: 80px;
+}
+
+.mapa {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 520px 580px;
+    width: 1100px;
+    margin-top: 80px;
+    border-radius: 12px;
+
+}
+
+.mapa div {
+    display: grid;
+
+}
+
+.mapa img {
+    display: grid;
+}
+
+.seila {
+    display: grid;
+    justify-content: center;
+}
+
+.imgicone {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#ptitulo {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Lato';
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    letter-spacing: 0.2px;
+    margin-left: 60px;
+}
+#local {
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    letter-spacing: 0.2px;
+    margin-left: 50px;
+}
+
+
+
+/* forms */ 
+
+
+.h2Forms {
+    font-size: 40px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+   margin-left: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 'Lato';
+    font-weight: 400;
+  }
+  
+ #lnamel {
+    height: 120px;
+ }
+
+  input[type=submit] {
+    width: 80px;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 630px;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #242225;
+  }
+  
+  
+/* FOOTER */ 
+
+.footer {
+    background-color: #000000;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -2000px;
+
+}
+
+
+.footer1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    width: 100%;
+
+}
+
+#UC {
+    font-style: normal;
+    font-family: 'Work Sans';
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 00.02em;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.tiles2 {
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 200;
+ letter-spacing: 0.01em;
+ font-family: 'Work Sans';
+color: #ffffff;
+margin-top: 30px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+#redes {
+    display: grid;
+    color:#d1cccc;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.txt {
+    color: #d3cdcd;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+    font-style: italic;
+
+}
+
+.floatimg {
+    margin-top: -250px;
+}
+
+.pagamento {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font-family: 'Lato';
+   color: #ffffff;
+}
+
+.ultimatxt {
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#d1cccc;
+
+}
+

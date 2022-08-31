@@ -1,0 +1,370 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#011c27;
+}
+
+/* TOP */
+
+.top { 
+    background-color: #cfcfcf;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+.top ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+.text {
+    font-style: normal;
+    font-size: 17px;
+    color: #494949;
+    font-family: 'Lato', 'sans-serif';
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+#titulo1 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Work Sans', 'sans serif';
+    color: black;
+    text-shadow: 0px 4px 4px 
+    rgba(0, 0, 0, 0.25);
+    font-weight: 800;
+    margin-right: 65%;
+}
+
+/* hedear */
+.header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 2px;
+    align-items: center;
+    width: 100%;
+    margin-top: 48px;
+    position: fixed;
+ background-color: #ffff;
+ z-index: 2;
+ left: 0;
+}
+
+#logo {
+    margin-right: 190px;
+    margin-left: 10px;
+}
+
+.txt a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', 'sans serif';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#home {
+    text-decoration:underline;
+    text-underline-offset: 0.4rem;   ;
+}
+
+.txt:hover {
+    text-decoration:underline;
+    text-underline-offset: 0.4rem; 
+}
+
+.buscar  {
+    background-color: #dedede;
+    color: black;
+    font-family:  'Work Sans', 'sans serif'; 
+    font-size: 14px;
+    border-radius: 24px;
+    width: 120px;
+    line-height: 30px;
+    transition: 1s;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+#lupa {
+    margin-left: 8px;
+    margin-right: 3px;
+}
+
+
+.buscar:hover {
+    opacity: 0.5;
+    background: rgba(28, 27, 27, 0.7)
+}
+
+#sacola {
+    margin-left: 10px;
+}
+
+/* promocao */
+.promocao {
+    background-color: #cfcfcf;
+    position: absolute;
+    margin-top: 145px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family:  'Work Sans', 'sans serif';
+    display: grid;
+    grid-template-columns:  25px 30px 130px 500px 25px;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+}
+
+.promocao div {
+display: grid;
+
+}
+#setas {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#textForte {
+    font-weight: 600;
+    margin-left: 5px;
+
+}
+
+
+/* inicio */ 
+.inicio {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    margin-top: 220px;
+    position: absolute;
+    font-size: 19px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    column-gap: 10px;
+    margin-left: 20px;
+}
+
+.inicio a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#feminino {
+    text-decoration:underline;
+    text-underline-offset: 0.4rem; 
+    margin-right: 890px;  
+}
+
+.filtros {
+    background-color: #000000;
+    border-radius: 40px;
+    width: 105px;
+    line-height: 29px;
+    height: 5vh;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 16px;
+    padding-left: 9px;
+    cursor: pointer;
+}
+
+
+/* PRODUTOS */ 
+
+.grid-inicial {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100%;
+    position: absolute;
+    margin-top: 300px;
+    left: 0;
+}
+
+.cores h2 {
+ margin-left: 20px;
+ font-family: 'Work Sans';
+ font-size: 23px;
+ font-weight: 600;
+ font-style: normal;
+ color: #272626;
+ margin-bottom: 0;
+
+}
+
+#corimg {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 55px;
+}
+
+.titulo {
+    color: #25272d;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.preco {
+    color: #0c2a95;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.produto img {
+    cursor: pointer;
+}
+
+#img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+#img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.pages {
+    text-align: center;
+    margin-top: 2200px;
+    position: absolute;
+    margin-left: 720px;
+
+}
+
+.antigoPreco {
+    color: #454343;
+    text-decoration:line-through;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+/* FOOTER */ 
+
+.footer {
+    background-color: #000000;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -2100px;
+
+}
+
+
+.footer1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    width: 100%;
+
+}
+
+#UC {
+    font-style: normal;
+    font-family: 'Work Sans';
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 00.02em;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.tiles2 {
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 200;
+ letter-spacing: 0.01em;
+ font-family: 'Work Sans';
+color: #ffffff;
+margin-top: 30px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+#redes {
+    display: grid;
+    color:#d1cccc;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.txt {
+    color: #d3cdcd;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+    font-style: italic;
+
+}
+
+.floatimg {
+    margin-top: -250px;
+}
+
+.pagamento {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font-family: 'Lato';
+   color: #ffffff;
+}
+
+.ultimatxt {
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#d1cccc;
+
+}
+

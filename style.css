@@ -1,0 +1,478 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#011c27;
+}
+
+/* TOP */
+
+.top { 
+    background-color: #cfcfcf;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+.top ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+.text {
+    font-style: normal;
+    font-size: 17px;
+    color: #494949;
+    font-family: 'Lato', 'sans-serif';
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+#titulo1 {
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Work Sans', 'sans serif';
+    color: black;
+    text-shadow: 0px 4px 4px 
+    rgba(0, 0, 0, 0.25);
+    font-weight: 800;
+    margin-right: 65%;
+}
+
+/* hedear */
+.header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 2px;
+    align-items: center;
+    width: 100%;
+    margin-top: 48px;
+    position: fixed;
+ background-color: #ffff;
+ z-index: 2;
+ left: 0;
+}
+
+#logo {
+    margin-right: 190px;
+    margin-left: 10px;
+}
+
+.txt a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', 'sans serif';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#home {
+    text-decoration:underline;
+    text-underline-offset: 0.4rem;   
+}
+
+.txt:hover {
+    text-decoration:underline;
+    text-underline-offset: 0.4rem; 
+}
+
+.buscar  {
+    background-color: #dedede;
+    color: black;
+    font-family:  'Work Sans', 'sans serif'; 
+    font-size: 14px;
+    border-radius: 24px;
+    width: 120px;
+    line-height: 30px;
+    transition: 1s;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+#lupa {
+    margin-left: 8px;
+    margin-right: 3px;
+}
+
+
+.buscar:hover {
+    opacity: 0.5;
+    background: rgba(28, 27, 27, 0.7)
+}
+
+#sacola {
+    margin-left: 10px;
+}
+
+/* promocao */
+.promocao {
+    background-color: #cfcfcf;
+    position: absolute;
+    margin-top: 145px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family:  'Work Sans', 'sans serif';
+    display: grid;
+    grid-template-columns:  25px 30px 130px 500px 25px;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+}
+
+.promocao div {
+display: grid;
+
+}
+#setas {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#textForte {
+    font-weight: 600;
+    margin-left: 5px;
+
+}
+
+/* imagem 1 */
+
+#banner {
+    margin-top: 200px;
+}
+
+.banner {
+    text-align: center;
+}
+
+
+/* texto 1 */
+
+.t1 {
+    font-family:'Work Sans', 'sans serif' ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.t2 {
+    font-family:'Work Sans', 'sans serif' ;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    margin:0;
+}
+
+.t3 {
+    font-family:'Work Sans', 'sans serif' ;
+    font-style: normal;
+    font-size: 17px;
+    text-align: center;
+    color: black;
+    
+}
+
+/* lançamentos */
+
+.lancamento {
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    font-family: 'Lato';
+    font-style: normal;
+    margin-left: 100px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+
+.imgs img {
+display: inline;
+
+}
+
+.imgs {
+    text-align: center;
+}
+
+#amarela {
+    margin-left: -4px;
+}
+
+/* Ofertas */
+
+#tile1 {
+    font-family:'Work Sans', 'sans serif' ;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+}
+
+#tile2 {
+    font-family:'Work Sans', 'sans serif' ;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+   
+}
+
+#tile3 {
+    font-family:'Work Sans', 'sans serif' ;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-weight: 200;
+   
+}
+
+.btnOfertas h4 {
+    font-family:'Work Sans', 'sans serif' ;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+   
+}
+
+.btnOfertas a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btnOfertas {
+    width: 160px;
+    background-color: black;
+    border-radius: 40px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+
+/* Oferta dia dos pais  */
+.ofertaTitulo {
+    font-family: 'Lato';
+    font-size: 45px;
+    font-weight: 400;
+    color: black;
+    font-style: normal;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+
+.categoria {
+    display: grid;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.lista2 {
+    text-decoration: none;
+
+}
+
+.lista2, .iten {
+    display: inline;
+    font-size: 13.5px;;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    font-weight: 900;
+    color: #777777;
+    line-height: 19px;
+    margin-right: 40px;
+}
+
+.prod {
+    display: inline;
+    font-size: 13.5px;;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    font-weight: 900;
+    color:#000000;
+    line-height: 19px;
+    margin-right: 40px;
+}
+
+.btncomprar{
+    border-radius: 40px;
+    background-color: black;
+    font-family: 'Work Sans';
+    font-size: 13.5px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 30px;
+    margin-left: 710px;
+    text-align: center;
+    width: 100px;
+
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    margin-top: 10px;
+    column-gap: 125px;
+    margin-bottom: 110px;
+    cursor: pointer;
+}
+
+.tileProdutos {
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #000000;
+    line-height: 18px;
+    cursor: pointer;
+
+}
+
+#p2 {
+    color: #11eb26;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 18px;
+    font-weight: 800;
+    text-align: left;
+
+}
+
+/* Pra quem voce compra */
+
+.titulofinal {
+    font-size: 40px;
+    margin-left: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-family:'Work Sans', 'sans serif';
+
+}
+
+.secoes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 80px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+/* FOOTER */ 
+
+.footer {
+    background-color: #000000;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -3000px;
+
+}
+
+
+.footer1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    width: 100%;
+
+}
+
+#UC {
+    font-style: normal;
+    font-family: 'Work Sans';
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 00.02em;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.tiles2 {
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 200;
+ letter-spacing: 0.01em;
+ font-family: 'Work Sans';
+color: #ffffff;
+margin-top: 30px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+#redes {
+    display: grid;
+    color:#d1cccc;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.txt {
+    color: #d3cdcd;
+    font-family: 'Lato';
+    font-weight: 200;
+    margin-bottom: 20px;
+    font-style: italic;
+
+}
+
+.floatimg {
+    margin-top: -250px;
+}
+
+.pagamento {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    font-family: 'Lato';
+   color: #ffffff;
+}
+
+.ultimatxt {
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#d1cccc;
+
+}
